@@ -1,21 +1,20 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "3.0.0",
 
   "packages":[
     {  
-       "name": "sublime-thinkphp-completions",  
+       "name": "ThinkphpCompletions",  
        "description": "Sublime thinkphp completion, include model,controller,functions,config,defined",  
        "author": "vace",  
        "homepage": "https://github.com/vace/sublime-thinkphp.git",  
        "last_modified": "2016-06-12 22:00:00",  
-       "platforms": {  
-        "*": [  
-         {  
+       "releases":[
+        {
+          "sublime_text":"*",
           "version": "1.0.0",  
-          "url": "https://github.com/vace/sublime-thinkphp/raw/master/sublime-thinkphp-completions.sublime-package"  
-         }  
-        ]  
-       }  
+          "url": "https://github.com/vace/sublime-thinkphp/raw/master/sublime-thinkphp-completions.sublime-package"
+        }
+       ]
       }
   ]
 }

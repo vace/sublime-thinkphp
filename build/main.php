@@ -24,7 +24,7 @@ class ParseTemplate{
 		return $this;
 	}
 
-	private $_outputDir = '../src/';
+	private $_outputDir = '../';
 
 	public function output($dirs=null){
 		if($dirs !== null){
